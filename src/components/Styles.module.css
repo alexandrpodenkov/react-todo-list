@@ -1,0 +1,39 @@
+.button{
+    @apply text-white cursor-pointer border-solid bg-slate-300 h-full w-14 font-semibold 
+    transition-all ease-in-out active:bg-slate-500 hover:bg-slate-400;
+}
+
+.input{
+    @apply w-full h-full my-10 bg-slate-100 border-none text-slate-700 
+    text-3xl font-thin focus:outline-none pl-3 shadow-xl ;
+}
+
+.title{
+    @apply text-violet-300 text-8xl font-thin;
+}
+
+.container{
+    @apply w-460px flex justify-center items-center h-14 mt-4 ;
+}
+
+.todo{
+    @apply text-slate-700 w-460px bg-slate-100 p-4 px-10 
+    text-3xl font-thin relative
+    border-t-2 border-slate-200 shadow-xl ;
+}
+
+.complitedTodo{
+    @apply text-slate-500 transition-all ease-in-out line-through 
+    text-3xl font-thin relative
+    w-460px bg-slate-100 p-4 px-10 border-t-2 border-slate-200 shadow-xl ;
+}
+
+.checkbox{
+    @apply mr-3;
+}
+
+.closeBtn{
+    @apply absolute right-8 cursor-pointer transition-all ease-in-out hover:text-red-400;
+}
+
+
